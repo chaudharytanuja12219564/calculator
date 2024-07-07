@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgb(32, 37, 39);
+
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    width: 66px;
+    /* border: 2px solid black; */
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: 20px;
+    /* border: 2px solid rgb(91, 91, 227); */
+    box-shadow: 5px 5px 8px rgb(91, 91, 227);
+}
+
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    font-size: 25px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 5px 5px 8px rgb(91, 91, 227);
+}
+
+.center{
+    text-align: center;
+    color: white;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 30%;
+    padding: 8px 0;
+    align-items: center;
+    border: 2px solid rgb(91, 91, 227);
+    box-sizing: content-box;
+    border-radius: 40px;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 10px 20px 25px rgb(91, 91, 227);
+}
+
